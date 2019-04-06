@@ -1,0 +1,9 @@
+Test id: 1g1c2d
+
+Ground truth has 1 class containing 2 point. This two points are also contained in the clustering-resulting dataset having only one 1 cluster.
+We trivially expect 1 as rand index.
+
+Test id: 1g1c1d
+Ground truth has 1 class containing 1 point. This point is also contained in the clustering-resulting dataset having only one 1 cluster.
+We expect an exception because at least two datapoints are required.
+
